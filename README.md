@@ -35,5 +35,5 @@ Terminale paleidžiamas `docker-compose.yml` failas, kuris Docker aplinkoje suku
 
 ### 5. Vektorinės duomenų bazės testavimas
 
-Su `Milvus_sukurimas_testavimas.py` yra sukuriama kolekcija, kurioje yra talpinami įterpiniai su jų metaduomenimis. Toliau atliekami indeksų ir panašumo metrikų testavimai
+Su `Milvus_sukurimas_testavimas.py` yra sukuriama kolekcija, kurioje yra talpinami .parquet failų duomenys (įterpiniai su jų metaduomenimis). Toliau atliekami indeksų ir panašumo metrikų testavimai
 
