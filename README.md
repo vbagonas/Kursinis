@@ -14,7 +14,7 @@ Projekto vykdymas susideda iš šių žingsnių:
 
 ### 1. Duomenų aibės sudarymas
 
-Visų pirma paleidžiamas `.py` failas duomenų aibės sudarymui. Šis skriptas surenka ir paruošia visus reikalingus duomenis analizėms.
+Su `1_kodu_filtravimas.py` ir `2_funkciju_istraukimas.py` failais buvo sukurta 100 tūkstančių funkcijų duomenų aibė.
 
 ### 2. Įterpinių modelio atranka ir testavimas
 
