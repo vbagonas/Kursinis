@@ -8,7 +8,7 @@ Projekto vykdymas susideda iš šių žingsnių:
 2. **Įterpinių modelio atranka ir testavimas**  
 3. **Funkcijų vertimas į įterpinius naudojant pasirinktą modelį**  
 4. **Vektorinės duomenų bazės konteinerio paleidimas**  
-5. **Vektorinės duomenų bazės testavimas ir rezultatų analizė**  
+5. **Vektorinės duomenų bazės testavimas**  
 
 ---
 
@@ -24,11 +24,16 @@ Lygiagrečiai vykdomi skirtingų įterpinių (embedding) modelių testavimai. Į
 
 Gautą duomenų aibę perkeliame į HPC aplinką. Joje naudojami šie failai:
 
-- `embed_functions.py` – funkcijų įterpčių generavimo modulis  
+- `embed_functions.py` – funkcijų įterpinių generavimo modelis  
 - `run_embed.sh` – paleidimo skriptas, automatiškai kviečiantis `embed_functions.py`
 
-Paleidę `run_embed.sh`, sukuriami įterpiniai (embeddings) kiekvienai duomenų aibės funkcijai.
+Paleidę `run_embed.sh`, sukuriami įterpiniai (angl. embeddings) kiekvienai duomenų aibės funkcijai.
 
 ### 4. Vektorinės duomenų bazės konteinerio paleidimas
 
-Paruoštą įterpinių lentelę iš HPC aplinkos perkeliame į atskirą vektorinės duomenų bazės konteinerį. Čia sukuriamas Docker (ar kito tipo) konteineris, kuriame veikia pasirinkta vektorinė duomenų bazė.
+Terminale paleidžiamas `docker-compose.yml` failas, kuris Docker aplinkoje sukuria konteinerį.
+
+### 5. Vektorinės duomenų bazės testavimas
+
+Su `Milvus_sukurimas_testavimas.py` yra sukuriama kolekcija, kurioje yra talpinami įterpiniai su jų metaduomenimis. Toliau atliekami indeksų ir panašumo metrikų testavimai
+
