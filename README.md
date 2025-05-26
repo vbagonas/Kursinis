@@ -22,7 +22,7 @@ Lygiagrečiai vykdomi skirtingų įterpinių (embedding) modelių testavimai. Į
 
 ### 3. Funkcijų vertimas į įterpinius
 
-Gautą duomenų aibę perkeliame į HPC aplinką. Joje naudojami šie failai:
+Gautą 100 tūkstančių funkcijų duomenų aibę perkeliame į HPC aplinką. Joje naudojami šie failai:
 
 - `embed_functions.py` – funkcijų įterpinių generavimo modelis  
 - `run_embed.sh` – paleidimo skriptas, automatiškai kviečiantis `embed_functions.py`
