@@ -5,8 +5,8 @@
 Projekto vykdymas susideda iš šių žingsnių:
 
 1. **Duomenų aibės sudarymas**  
-2. **Įterpinių modelio atranka ir testavimas**  
-3. **Funkcijų vertimas į įterpinius naudojant pasirinktą modelį**  
+2. **Įterpinių kalbos modelio atranka ir testavimas**  
+3. **Funkcijų vertimas į įterpinius naudojant pasirinktą kalbos modelį**  
 4. **Vektorinės duomenų bazės konteinerio paleidimas**  
 5. **Vektorinės duomenų bazės testavimas**  
 
@@ -16,7 +16,7 @@ Projekto vykdymas susideda iš šių žingsnių:
 
 Su `1_kodu_filtravimas.py` ir `2_funkciju_istraukimas.py` failais buvo sukurta 100 tūkstančių funkcijų duomenų aibė.
 
-### 2. Įterpinių modelio atranka ir testavimas
+### 2. Įterpinių kalbos modelio atranka ir testavimas
 
 Lygiagrečiai vykdomi skirtingų įterpinių (embedding) modelių testavimai. Įvertiname kiekvieno modelio tikslumą ir našumą, siekdami pasirinkti geriausią. Šiai užduočiai atlikti naudojami šie failai: `modeliu_palyginimas.sh`, `modeliu_palyginimas_su_klonu_uzduotimi.py`, `klonu_uzd_duomenu_rinkinio_sudarymas.py`, `iterpiniu_vizualizavimas_umap.py`. Duomenys naudojami šiems Python failams įkelti kaip .zip
 
@@ -24,7 +24,7 @@ Lygiagrečiai vykdomi skirtingų įterpinių (embedding) modelių testavimai. Į
 
 Gautą 100 tūkstančių funkcijų duomenų aibę perkeliame į HPC aplinką. Joje naudojami šie failai:
 
-- `embed_functions.py` – funkcijų įterpinių generavimo modelis  
+- `embed_functions.py` – funkcijų įterpinių generavimo kalbos modelis  
 - `run_embed.sh` – paleidimo skriptas, automatiškai kviečiantis `embed_functions.py`
 
 Paleidę `run_embed.sh`, sukuriami įterpiniai (angl. embeddings) kiekvienai duomenų aibės funkcijai.
