@@ -18,7 +18,7 @@ Su `1_kodu_filtravimas.py` ir `2_funkciju_istraukimas.py` failais buvo sukurta 1
 
 ### 2. Įterpinių modelio atranka ir testavimas
 
-Lygiagrečiai vykdomi skirtingų įterpinių (embedding) modelių testavimai. Įvertiname kiekvieno modelio tikslumą ir našumą, siekdami pasirinkti geriausią. Šiai užduočiai atlikti naudojami šie failai: `modeliu_palyginimas.sh`, `modeliu_palyginimas_su_klonu_uzduotimi.py`, `klonu_uzd_duomenu_rinkinio_sudarymas.py`, `iterpiniu_vizualizavimas_umap.py`. Duomenys naudojami šiems Python failas įkelti kaip .zip
+Lygiagrečiai vykdomi skirtingų įterpinių (embedding) modelių testavimai. Įvertiname kiekvieno modelio tikslumą ir našumą, siekdami pasirinkti geriausią. Šiai užduočiai atlikti naudojami šie failai: `modeliu_palyginimas.sh`, `modeliu_palyginimas_su_klonu_uzduotimi.py`, `klonu_uzd_duomenu_rinkinio_sudarymas.py`, `iterpiniu_vizualizavimas_umap.py`. Duomenys naudojami šiems Python failams įkelti kaip .zip
 
 ### 3. Funkcijų vertimas į įterpinius
 
