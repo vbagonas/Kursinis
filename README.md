@@ -31,7 +31,7 @@ Paleidę `run_embed.sh`, sukuriami įterpiniai (angl. embeddings) kiekvienai duo
 
 ### 4. Vektorinės duomenų bazės konteinerio paleidimas
 
-Terminale paleidžiamas `docker-compose.yml` failas, kuris Docker aplinkoje sukuria konteinerį.
+PyCharm terminale paleidžiamas `docker-compose.yml` failas, kuris Docker aplinkoje sukuria konteinerį.
 
 ### 5. Vektorinės duomenų bazės testavimas
 
